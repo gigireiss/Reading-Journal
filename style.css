@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/fundo\ de\ livros.png);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    margin-left: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.lupa{
+    display: flex;
+    width: 5vw;
+    height: 5vh;
+    margin-left: auto;
+}
+
+h1{
+    display: flex;
+    text-align:left;
+    font-family: 'Shrikhand', cursive;
+    font-size: 38px;
+    color: black;
+    padding: 5px;
+}
+h4{
+    display: flex;
+    text-align:initial;
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    color: black;
+}
+
+.container-primeira-sessao{
+    display: flex;
+    gap: 100px;
+}
+.primeira-sessao{
+    display: flex;
+    border: 1px solid white;
+    width: 20vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 20px;
+    text-align: right;
+    margin-left: 20px;
+}
+.livro-caixa{
+    margin: 10px;
+    width: 10vw;
+    height: 20vh;
+}
+
+h3{
+    width: 30vw;
+    font-size: 20px;
+    font-family: 'Shrikhand', cursive;
+    padding-bottom: 3px;
+}
+.segunda-sessao{
+    display: flex;
+    border: 1px solid white;
+    width: 45vw;
+    height: 15vh;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+
+    
+}
+.agenda{
+    width: 5vw;
+    height: 7vh;
+    padding: 10px;
+}
+.caixa{
+    width: 30vw;
+    /* border: 1px solid white; */
+    font-family: 'Shrikhand', cursive;
+    padding-bottom: 3px;
+}
+.imagem-1{
+    width: 8vw;
+    height: 17vh;
+}
+.imagem-2{
+   width: 8vw;
+   height: 17vh;
+}
+.imagem-3{
+    width: 8vw;
+    height: 17vh;
+}
+.imagem-4{
+    width: 8vw;
+    height: 17vh;
+}
+.container-segunda-sessao{
+    display: flex;
+    gap: 160px;
+    margin-top: 30px;
+}
+.terceira-sessao{
+    display: flex;
+    border: 1px solid white;
+    width: 25vw;
+    height: 25vh;
+    background-color: white;
+    border-radius: 20px;
+    text-align: right;
+    margin-left: 20px;
+}
+h4{
+    width: 30vw;
+    font-family: 'Shrikhand', cursive;
+    padding-bottom: 3px;
+}
+.quarta-sessao{
+    display: flex;
+    width: 25vw;
+    height: 15vh;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    padding: 25px;
+}
+h2{
+    display: flex;
+    text-align:initial;
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.graficos{
+    margin-top: 100px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30vw;
+}
+
+.grafico{
+    display: flex;
+}
+
+.container-terceira-sessao{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista{
+    width: 125px;
+    gap: 10px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.comprei{
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    background-color: rgb(215, 65, 90);
+}
+.abandonei{
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    background-color: rgb(147, 167, 240);
+    margin-top: 15px;
+}
+.lidos{
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    background-color: greenyellow;
+    margin-top: 15px;
+}
+.releitura{
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    background-color: purple;
+    margin-top: 20px;
+}
+h2{
+    display: flex;
+    text-align:initial;
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.container-quarta-sessao{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.primeiros-livros{
+    display: flex;
+    width: 25vw;
+    height: 35vh;
+    gap: 10px;
+    margin-left: 10px;
+}
+.segundos-livros{
+    display: flex;
+    width: 25vw;
+    height: 35vh;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.terceiros-livros{
+    display: flex;
+    width: 25vw;
+    height: 35vh;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+
